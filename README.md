@@ -14,3 +14,10 @@ Segui o seguinte roteiro, utilizando o dataset Rocks vs Mines, amplamente dispon
 
 A implementação de modelos de inteligência Artificial no ESP32 é plenamente possível e tem bom desempenho, atentando-se
 às limitações de memória RAM do dispositivo que mostrou-se adequada à datasets < 100 variáveis. 
+
+
+
+
+
+
+![alt text](https://github.com/antoniocgg/ESP32_ML/blob/master/ESP32.jpg)
