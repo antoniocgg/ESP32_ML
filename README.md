@@ -6,11 +6,11 @@ Os modelos são criados em Python com o pacote scikit-learn e os coeficientes co
 
 Segui o seguinte roteiro, utilizando o dataset Rocks vs Mines, amplamente disponível na internet.
 
-- Criação de modelos de classificação (Regressão Logística, SVM e Redes Neurais)
-- Os modelos foram refinados para atender as expectativas de funcionamento com base no dataset Rocks vs Mines
+- Criação de modelos de classificação (Regressão Logística, SVM e Redes Neurais). Verifique os notebooks
+- Os modelos foram refinados para atender as expectativas de funcionamento com base no dataset Rocks vs Mines. Eliminados os falsos positivos
 - Em seguida criei um algoritmo "from scratch" para comparar com as predições feitas pelo scikit-learn
-- Após verificar o funcionamento, os coeficientes foram exportados em formato CSV e colados no código C do Arduino.
-- Implementei o algoritmo de predição na linguagem C do Arduino
+- Após verificar o funcionamento, os coeficientes foram exportados em um arquivo CSV e colados no código C do Arduino.
+- Implementei o algoritmo de predição na linguagem C do Arduino e testei enviando dados através do Monitor Serial. Simplesmente copiando a amostra e colando. (valores separados por vírgula)
 
 A implementação de modelos de inteligência Artificial no ESP32 é plenamente possível e tem bom desempenho, atentando-se
 às limitações de memória RAM do dispositivo que mostrou-se adequada à datasets < 100 variáveis. 
