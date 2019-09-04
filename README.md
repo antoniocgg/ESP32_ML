@@ -12,5 +12,5 @@ Segui o seguinte roteiro, utilizando o dataset Rocks vs Mines, amplamente dispon
 - Após verificar o funcionamento, os coeficientes foram exportados em formato CSV e colados no código C do Arduino.
 - Implementei o algoritmo de predição na linguagem C do Arduino
 
-A implementação de modelos de inteligência Artificial no ESP32 é plenamente possível e com bom desempenho, atentando-se
-às limitações de memória RAM do dispositivo, que mostrou-se adequada à datasets < 100 variáveis. 
+A implementação de modelos de inteligência Artificial no ESP32 é plenamente possível e tem bom desempenho, atentando-se
+às limitações de memória RAM do dispositivo que mostrou-se adequada à datasets < 100 variáveis. 
