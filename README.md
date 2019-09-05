@@ -4,7 +4,7 @@ Implementando modelos de ML no ESP32, usando a IDE do Arduino
 Uma prova de conceito para testar a utilização de modelos de ML em microcontroladores
 Os modelos são criados em Python com o pacote scikit-learn e os coeficientes copiados no código C do microcontrolador
 
-Segui o seguinte roteiro, utilizando o dataset Rocks vs Mines, amplamente disponível na internet.
+Segui o seguinte roteiro, utilizando o dataset Rocks vs Mines disponível em csv
 
 - Criação de modelos de classificação (Regressão Logística, SVM e Redes Neurais). Verifique os notebooks
 - Os modelos foram refinados para atender as expectativas de funcionamento com base no dataset Rocks vs Mines. Eliminados os falsos positivos
